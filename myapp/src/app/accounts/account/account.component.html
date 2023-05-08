@@ -1,0 +1,24 @@
+<div class="container border border-dark w-50">
+  <div class="row">
+    <div class="col">
+      <h5>{{ id + 1 }} {{ account.name }}</h5>
+      <p>This account is {{ account.status }}</p>
+    </div>
+    <div class="col">
+      <div class="btn-group m-3">
+        <button class="btn btn-primary btn-sm" (click)="changeStatus('Active')">
+          Active
+        </button>
+        <button class="btn btn-info btn-sm" (click)="changeStatus('Inactive')">
+          Inactive
+        </button>
+        <button class="btn btn-warning btn-sm" (click)="changeStatus('Hidden')">
+          Hidden
+        </button>
+        <button class="btn btn-danger btn-sm" (click)="deleteAccount()">
+          Delete
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

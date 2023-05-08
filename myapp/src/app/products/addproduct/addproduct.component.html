@@ -1,0 +1,38 @@
+<div class="row m-5">
+  <p>Add New Product</p>
+  <div class="col">
+    <input
+      type="text"
+      class="form-control"
+      [(ngModel)]="newProductName"
+      placeholder="Product Name"
+    />
+  </div>
+  <div class="col">
+    <input
+      type="text"
+      class="form-control"
+      [(ngModel)]="newProductDescription"
+      placeholder="Product Description"
+    />
+  </div>
+  <div class="col">
+    <input
+      type="text"
+      class="form-control"
+      [(ngModel)]="newProductQuantity"
+      placeholder="Quantity"
+    />
+  </div>
+  <div class="col">
+    <input
+      type="text"
+      class="form-control"
+      [(ngModel)]="newProductCost"
+      placeholder="Price"
+    />
+  </div>
+  <div class="col">
+    <button class="btn btn-primary" (click)="onAddProduct()">Add</button>
+  </div>
+</div>

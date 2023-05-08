@@ -1,0 +1,42 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "first_name": "Alex",
+      "last_name": "Dunphy",
+      "email": "alex@example.com"
+    },
+    {
+      "id": 2,
+      "first_name": "Ben",
+      "last_name": "Williams",
+      "email": "ben@example.com"
+    },
+    {
+      "id": 3,
+      "first_name": "Catherine",
+      "last_name": "Summers",
+      "email": "catherine@example.com"
+    },
+    {
+      "id": 4,
+      "first_name": "Delilah",
+      "last_name": "Williams",
+      "email": "del@example.com"
+    },
+    {
+      "id": 5,
+      "first_name": "Elena",
+      "last_name": "Cullens",
+      "email": "elena@example.com"
+    }
+  ],
+  "posts": [
+    {
+      "title": "Test",
+      "content": "Test content",
+      "id": 1
+    }
+  ],
+  "courses": []
+}

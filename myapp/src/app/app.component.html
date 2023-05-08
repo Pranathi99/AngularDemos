@@ -1,0 +1,78 @@
+<!-- <h1>Hello from Angular</h1> -->
+
+<!-- <app-products></app-products>
+<app-products></app-products>
+<app-products></app-products>
+<app-products></app-products>
+
+<success-alert></success-alert>
+<br /><br />
+<warning-alert></warning-alert>
+<br /><br /> -->
+<!-- <app-server></app-server> -->
+<!-- <<app-names></app-names> -->
+<!-- <app-secret></app-secret> -->
+
+<!-- <app-products></app-products> -->
+
+<!-- <app-accounts></app-accounts> -->
+
+<!-- <app-lifecycledemo></app-lifecycledemo> -->
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <ul class="nav nav-tabs">
+        <li
+          role="presentation"
+          class="nav-item"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <a class="nav-link" routerLink="/">Home</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="/server">Server</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="/warningalert">WarningAlert</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="/accounts">Accounts</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="/names">Names</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="/products">Products</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="/secret">Secret</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="/successalert">SuccessAlert</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="/observables">Observables</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="/tforms">TForms</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="/rforms">RForms</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="/pipes">Pipes</a>
+        </li>
+        <li role="presentation" class="nav-item" routerLinkActive="active">
+          <a class="nav-link" routerLink="/blogs">Blogs</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

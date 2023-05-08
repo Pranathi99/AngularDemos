@@ -1,0 +1,10 @@
+"use strict";
+let fname = "Alex";
+console.log(fname);
+let lname = "Wilson";
+console.log(lname);
+console.log(typeof fname);
+let x = true;
+console.log(x);
+x = "Hello";
+console.log(x);
